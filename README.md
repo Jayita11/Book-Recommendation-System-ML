@@ -13,6 +13,8 @@
 - [How to Run](#how-to-run)
 - [Detailed Explanation of the Notebook](#detailed-explanation-of-the-notebook)
 - [Model and Data Artifacts](#model-and-data-artifacts)
+- [Model Evaluation](#model-evaluation)
+- [Deployment](#deployment)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
 - [License](#license)
