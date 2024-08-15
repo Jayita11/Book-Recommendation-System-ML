@@ -125,6 +125,8 @@ Deploy the model using a Streamlit app (app.py). The app allows users to input h
 
 https://book-recommendation-system-ml-cbuhkeure2vat6yw3qgvew.streamlit.app
 
+![Animation_24](https://github.com/user-attachments/assets/0bc697cc-1b37-47e3-bfa4-76a0cbf03dd5)
+
   
 
 ## Future Work
