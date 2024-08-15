@@ -2,10 +2,14 @@
 
 ![Book Recommendation System](https://img.shields.io/badge/Recommendation%20System-Book-brightgreen)
 
+This project implements a Book Recommendation System using a collaborative filtering approach with the Nearest Neighbors (NN) algorithm. The system recommends books based on user interactions, specifically by finding similarities between books in a user-item matrix. Given a book that a user likes, the system suggests other books that are similar, based on historical user preferences.
+
+![DALL·E 2024-08-15 15 05 20 - A flat design inspired by an image of people interacting with technology while seated on and around a large shopping cart  The background is a deep bl](https://github.com/user-attachments/assets/677e53a9-6f54-40be-b084-ee67c0cd0de6)
+
+
 ## Table of Contents
 
 - [Overview](#overview)
-- [Objective](#objective)
 - [Dataset](#dataset)
 - [Features](#features)
 - [Model and Data Artifacts](#model-and-data-artifacts)
@@ -65,10 +69,6 @@ Collaborative filtering operates on the assumption that if a user likes item A, 
 Hybrid systems aim to provide more comprehensive and adaptable recommendations by leveraging both content and collaborative filtering approaches.
 
 
-## Objective
-
-This project implements a Book Recommendation System using a collaborative filtering approach with the Nearest Neighbors (NN) algorithm. The system recommends books based on user interactions, specifically by finding similarities between books in a user-item matrix. Given a book that a user likes, the system suggests other books that are similar, based on historical user preferences.
-
 ## Dataset
 
 The dataset used in this project is a user-book interaction matrix that contains information about users' ratings of various books. This matrix is transformed into a form that the NN algorithm can use to compute similarities between books.
@@ -118,10 +118,14 @@ The effectiveness of the Nearest Neighbors (KNN) model is evaluated through qual
 
 While the evaluation is primarily qualitative in this instance, the model demonstrates effectiveness in identifying and recommending books closely related to the user's interests. 
 
+![Screenshot 2024-08-15 at 3 08 19 PM](https://github.com/user-attachments/assets/1e2297d9-d12e-4ea2-bc3a-a9da294f2062)
+
 ## Deployment
 Deploy the model using a Streamlit app (app.py). The app allows users to input house data and get price predictions. To run the app, execute the following command:
 
 https://book-recommendation-system-ml-cbuhkeure2vat6yw3qgvew.streamlit.app
+
+  
 
 ## Future Work
 
