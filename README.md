@@ -19,11 +19,11 @@
 
 ## Overview
 
-This project implements a Book Recommendation System using a collaborative filtering approach with the K-Nearest Neighbors (KNN) algorithm. The system recommends books based on user interactions, specifically by finding similarities between books in a user-item matrix. Given a book that a user likes, the system suggests other books that are similar, based on historical user preferences.
+This project implements a Book Recommendation System using a collaborative filtering approach with the Nearest Neighbors (NN) algorithm. The system recommends books based on user interactions, specifically by finding similarities between books in a user-item matrix. Given a book that a user likes, the system suggests other books that are similar, based on historical user preferences.
 
 ## Dataset
 
-The dataset used in this project is a user-book interaction matrix that contains information about users' ratings of various books. This matrix is transformed into a form that the KNN algorithm can use to compute similarities between books.
+The dataset used in this project is a user-book interaction matrix that contains information about users' ratings of various books. This matrix is transformed into a form that the NN algorithm can use to compute similarities between books.
 
 ### Data Preprocessing
 
@@ -32,11 +32,12 @@ The preprocessing steps include:
 1. **Loading the Data:** The raw data is loaded and inspected for missing or inconsistent values.
 2. **Creating the User-Item Matrix:** This matrix is created where rows represent users and columns represent books. Each entry in the matrix indicates the rating a user has given to a book.
 3. **Filling Missing Values:** Missing values in the matrix are filled using appropriate strategies to ensure the KNN model can be trained effectively.
+4. **EDA:** Visualizing the distribution of features
 
 ## Features
 
 - **User-Book Interaction Analysis:** Analyze and preprocess user interaction data to create a user-item matrix.
-- **K-Nearest Neighbors Model:** Train a KNN model to compute similarities between books based on user ratings.
+- **Nearest Neighbors Model:** Train a KNN model to compute similarities between books based on user ratings.
 - **Book Recommendation:** Given a book, the system recommends similar books by querying the trained KNN model.
 - **Model Persistence:** Save the trained model and other necessary data artifacts for later use.
 
