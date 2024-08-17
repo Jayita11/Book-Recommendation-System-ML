@@ -121,7 +121,7 @@ While the evaluation is primarily qualitative in this instance, the model demons
 ![Screenshot 2024-08-15 at 3 08 19 PM](https://github.com/user-attachments/assets/1e2297d9-d12e-4ea2-bc3a-a9da294f2062)
 
 ## Deployment
-Deploy the model using a Streamlit app (app.py). The app allows users to input house data and get price predictions. To run the app, execute the following command:
+Deploy the model using a Streamlit app (app.py). The app allows users to select a book and get recommended books. To run the app, execute the following command:
 
 https://book-recommendation-system-ml-cbuhkeure2vat6yw3qgvew.streamlit.app
 
